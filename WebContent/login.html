@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>系统登录</title>
+<style type="text/css">
+form{
+    margin-top:5%;
+    padding-left:35%;
+}
+h1{
+    padding-left:30%;
+}
+</style>
+</head>
+<body>
+<h1>欢迎登录实时图表统计系统</h1>
+<form action="LoginCheck" method="post" >
+<h3>请输入账号和密码</h3>
+账 号：<input type="text"name="user"/><br/>
+密 码：<input type="password"name="password" /><br/><br/>
+<input type="submit" name="submit" value="登录"/>
+<input type="reset" name="reset" value="重置"/><br/><br/>
+<a href="vote.jsp"><input type="button" name="visit" value="以游客身份登录"/></a>
+</form>
+</body>
+</html>

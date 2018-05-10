@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+form{
+	text-align:center;
+}
+
+ul
+{
+    list-style-type:none;
+    margin-top:5%;
+    padding-left:25%;
+    overflow:hidden;
+}
+li
+{
+    float:left;
+}
+a:link,a:visited
+{
+    display:block;
+    width:120px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#bebebe;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+a:hover,a:active
+{
+    background-color:#cc0000;
+}
+#main{
+	width: 700px;
+	height:400px;
+	padding-left:20%;
+}
+#text{
+	padding-left:30%;
+}
